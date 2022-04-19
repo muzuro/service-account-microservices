@@ -1,5 +1,7 @@
-package com.mzr.sm.security.service
+package com.mzr.sm.security
 
+import com.mzr.sm.security.service.ServiceAuthenticationProvider
+import com.mzr.sm.security.service.ServiceAuthenticationToken
 import org.springframework.beans.factory.annotation.Value
 import org.springframework.http.HttpHeaders
 import org.springframework.security.core.context.SecurityContextHolder

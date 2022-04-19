@@ -1,6 +1,6 @@
 package com.mzr.sm.job
 
-import com.mzr.sm.security.service.SecurityServiceImpl
+import com.mzr.sm.security.SecurityServiceImpl
 import mu.KotlinLogging
 import org.apache.commons.lang3.time.DateUtils
 import org.springframework.core.ParameterizedTypeReference

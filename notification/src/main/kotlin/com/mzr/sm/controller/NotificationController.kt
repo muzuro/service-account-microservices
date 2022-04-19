@@ -1,15 +1,11 @@
 package com.mzr.sm.controller
 
-import com.mzr.sm.security.service.SecurityServiceImpl
+import com.mzr.sm.security.SecurityServiceImpl
 import mu.KotlinLogging
 import org.springframework.core.ParameterizedTypeReference
 import org.springframework.http.HttpEntity
-import org.springframework.http.HttpHeaders
 import org.springframework.http.HttpMethod
-import org.springframework.security.core.Authentication
-import org.springframework.web.bind.annotation.CrossOrigin
 import org.springframework.web.bind.annotation.PostMapping
-import org.springframework.web.bind.annotation.RequestHeader
 import org.springframework.web.bind.annotation.RestController
 import org.springframework.web.client.RestTemplate
 

@@ -57,7 +57,7 @@ class WebSecurityConfig(
     override fun userDetailsService(): UserDetailsService {
         val user1 = User
             .withUsername("user@mail.com")
-            .authorities("USER")
+            .authorities("users.read", "user.read")
             .passwordEncoder { rawPassword: String? -> passwordEncoder.encode(rawPassword) }
             .password("1234")
             .build()

@@ -5,7 +5,7 @@ import org.springframework.security.core.GrantedAuthority
 
 class ServiceAuthenticationToken(
     val token: String,
-    val authorities: List<GrantedAuthority> = emptyList()
+    authorities: List<GrantedAuthority> = emptyList()
 ): AbstractAuthenticationToken(authorities) {
     override fun getCredentials(): Any {
         return token
